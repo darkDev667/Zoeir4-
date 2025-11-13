@@ -10,7 +10,7 @@ local Window = Libary:MakeWindow({
     Flags = "cra7yzHub_Broookhaven"
 })
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://110941051056693", BackgroundTransparency = 1 },
+    Button = { Image = "", BackgroundTransparency = 5 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
@@ -61,7 +61,7 @@ Tab1:AddDiscordInvite({
     Name = "cra7yz| Studios ",
     Description = "Seja Bem vindo !! ",
     Logo = "",
-    Invite = "https://discord.gg/v4yCRcax",
+    Invite = "https://discord.gg/c7stds",
 })
 
 
@@ -89,7 +89,7 @@ local executorName = detectExecutor()
 
 local Paragraph = Tab1:AddParagraph({"Execultor", executorName})
 
-local Section = Tab1:AddSection({"versao do Hub 3.7"})
+local Section = Tab1:AddSection({"versao do Hub 5.0"})
 
 local Paragraph = Tab1:AddParagraph({"Criadores", "Void777 \n ?????"})
 
@@ -99,7 +99,7 @@ local Paragraph = Tab1:AddParagraph({"Criadores", "Void777 \n ?????"})
     Name = " - Copiar @ do TikTok",
     Callback = function()
       setclipboard("cra7yz") -- Copia o @
-      setclipboard("https://www.tiktok.com/@darkdev21?_t=ZM-90xeOWD4uMd&_r=1") -- Copia o link também, se quiser só o @, remova esta linha
+      setclipboard("") -- Copia o link também, se quiser só o @, remova esta linha
       
     end
   })
@@ -203,7 +203,7 @@ end
 Tab2:AddTextBox({
     Name = "Nome do Jogador",
     Description = "Digite parte do nome",
-    PlaceholderText = "ex: lo → Void777",
+    PlaceholderText = "ex: lo → Void77",
     Callback = function(Value)
         local foundPlayer = findPlayerByPartialName(Value)
         if foundPlayer then
